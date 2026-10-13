@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BBetter Dialer</string>
+    <string name="launcher_name_telefon">Telefon</string>
+    <string name="launcher_name_dialer">Dialer</string>
+</resources>

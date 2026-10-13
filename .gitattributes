@@ -1,0 +1,17 @@
+# Egységes sorvégződések minden platformon
+* text=auto eol=lf
+
+# Windows parancsfájlok CRLF-fel
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Bináris fájlok – ne alakítsa át a git
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.apk binary
+*.jar binary
+*.keystore binary
+*.ttf binary
+*.otf binary

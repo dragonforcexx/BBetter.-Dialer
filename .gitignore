@@ -1,0 +1,39 @@
+# --- Android / Gradle -------------------------------------------------------
+*.iml
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# --- Build kimenetek --------------------------------------------------------
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+!dist/*.apk
+
+# --- Aláírás / titkok -------------------------------------------------------
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+
+# --- OS / szerkesztő --------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+
+# --- Python (látványterv generátor) -----------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
